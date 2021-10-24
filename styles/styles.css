@@ -1,0 +1,50 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #ffa44f;
+    --third-color: #e5e4e6;
+    --heading-font-family: "Marck Script", serif;
+    --default-font-family: "Montserrat", sans-serif;
+  }
+  
+  body {
+    font-family: var(--default-font-family);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: black;
+    font-family: var(--default-font-family);
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 64px;
+  }
+  
+  p {
+    font-weight: normal;
+    font-size: 16px;
+  }
+
+  .hero {
+    background: var(--secondary-color);
+    padding: 160px 20px;
+    text-align: center;
+  }
+  
+  .hero p {
+    color: var(--third-color);
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .hero h2 {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 2;
+  }
