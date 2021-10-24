@@ -6,6 +6,10 @@
   --default-font-family: "Montserrat", sans-serif;
 }
 
+body {
+  background-color: var(--primary-color);
+}
+
 h1,
 h2,
 h3,
