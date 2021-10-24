@@ -1,50 +1,156 @@
 :root {
-    --primary-color: #000000;
-    --secondary-color: #ffa44f;
-    --third-color: #e5e4e6;
-    --heading-font-family: "Marck Script", serif;
-    --default-font-family: "Montserrat", sans-serif;
-  }
-  
-  body {
-    font-family: var(--default-font-family);
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: black;
-    font-family: var(--default-font-family);
-    font-weight: bold;
-  }
-  
+  --primary-color: #000000;
+  --secondary-color: #ffa44f;
+  --third-color: #e5e4e6;
+  --heading-font-family: "Marck Script", serif;
+  --default-font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 64px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+img {
+  border-radius: 30px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+.btn-branding {
+  background: var(--primary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+.btn-branding-outline {
+  border-radius: 4px;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  font-size: 20px;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  color: var(--third-color);
+  font-family: var(--default-font-family);
+  font-size: 20px;
+}
+
+.hero h2 {
+  color: var(--third-color);
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.hero p {
+  color: var(--third-color);
+  font-family: var(--heading-font-family);
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.icons {
+  text-align: center;
+}
+
+.fa-github {
+  background: var(--third-color);
+  border-radius: 30px;
+  font-size: 30px;
+  padding: 10px;
+  margin: 0px 30px;
+}
+
+.fa-envelope {
+  background: var(--third-color);
+  border-radius: 30px;
+  font-size: 30px;
+  padding: 10px;
+  margin: 0px 30px;
+}
+
+.projects h1 {
+background-color: var(--primary-color);
+color: var(--third-color);
+font-size: 48px;
+text-align: center;
+padding: 13px 0px;
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
   h1 {
-    font-size: 64px;
+    font-size: 20px;
   }
-  
-  p {
-    font-weight: normal;
-    font-size: 16px;
+
+  h2 {
+    font-size: 40px;
   }
 
   .hero {
-    background: var(--secondary-color);
-    padding: 160px 20px;
+    padding: 50px 10px;
     text-align: center;
   }
-  
+
   .hero p {
-    color: var(--third-color);
-    font-size: 36px;
-    font-weight: bold;
-    margin: 0;
+    font-size: 40px;
   }
-  
+
   .hero h2 {
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 2;
+    font-size: 18px;
   }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .btn-branding {
+    font-size: 18px;
+    display: block;
+    margin: 0, auto;
+  }
+}
