@@ -16,9 +16,18 @@ h3,
 h4,
 h5,
 h6 {
-  color: black;
+  color: var(--third-color)
   font-family: var(--heading-font-family);
   font-weight: bold;
+}
+
+h1{
+  background-color: var(--secondary-color);
+  font-family: var(--heading-font-family);
+  font-size: 44px;
+  margin:  0px 0px 30px 0px;
+  padding: 30px 0px;
+  text-align: center;
 }
 
 h2 {
@@ -119,7 +128,6 @@ background-color: var(--primary-color);
 color: var(--third-color);
 font-size: 48px;
 text-align: center;
-padding: 13px 0px;
 }
 
 .project-description {
@@ -128,7 +136,7 @@ padding: 13px 0px;
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 20px;
+    font-size: 40px;
   }
 
   h2 {
@@ -136,6 +144,7 @@ padding: 13px 0px;
   }
 
   .hero {
+    font-weight: bold;
     padding: 50px 10px;
     text-align: center;
   }
