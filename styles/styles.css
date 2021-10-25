@@ -144,19 +144,23 @@ text-align: center;
   }
 
   .hero {
-    font-weight: bold;
     padding: 50px 10px;
     text-align: center;
+  }
+
+  .hero h1 {
+    font-weight: bold;
+  }
+
+  .hero h2 {
+    font-size: 18px;
+    font-weight: bold;
   }
 
   .hero p {
     font-size: 40px;
   }
-
-  .hero h2 {
-    font-size: 18px;
-  }
-
+  
   .project-description {
     padding: 0;
     text-align: center;
