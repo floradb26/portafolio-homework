@@ -10,17 +10,6 @@ body {
   background-color: var(--primary-color);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--third-color)
-  font-family: var(--heading-font-family);
-  font-weight: bold;
-}
-
 h1{
   background-color: var(--secondary-color);
   font-family: var(--heading-font-family);
@@ -31,6 +20,7 @@ h1{
 }
 
 h2 {
+  font-family: var(--heading-font-family);
   font-size: 64px;
   color: var(--third-color);
 }
@@ -139,7 +129,8 @@ text-align: center;
     font-size: 40px;
   }
 
-  h2 {
+  h2 {  
+    font-family: var(--heading-font-family);
     font-size: 40px;
   }
 
