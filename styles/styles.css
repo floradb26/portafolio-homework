@@ -16,7 +16,6 @@ h1{
   color: var(--third-color);
   font-family: var(--heading-font-family);
   font-size: 44px;
-  margin:  0px 0px 30px 0px;
   padding: 30px 0px;
   text-align: center;
 }
