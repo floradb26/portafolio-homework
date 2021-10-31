@@ -162,11 +162,19 @@ footer .signature a {
   max-height: 50px;
 }
 
-.projects {
+.block-title {
+  background-color: white;
+  color: var(--primary-color);
+  font-size: 48px;
+  text-align: center;
+}
+
+.content-container {
 background-color: white;
 color: var(--primary-color);
 font-size: 48px;
 text-align: center;
+padding: 40px 70px;
 }
 
 .project-description {
