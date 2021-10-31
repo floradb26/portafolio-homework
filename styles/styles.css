@@ -132,6 +132,16 @@ footer a {
   color: var(--primary-color);
 }
 
+.illustration-block {
+ background-color: white;
+}
+
+.illustration-block img {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+
 footer {
   background-color: var(--primary-color);
   color: var(--secondary-color);
@@ -215,6 +225,12 @@ padding: 40px 70px;
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .illustration-block img {
+    max-width: 100px;
+    display: block;
+    margin: auto;
   }
 
   .btn-branding {
