@@ -1,7 +1,8 @@
 :root {
   --primary-color: #000000;
-  --secondary-color: #ffa44f;
+  --secondary-color: #9F616A;
   --third-color: #e5e4e6;
+  --btn-color: #ff6583;
   --heading-font-family: "Marck Script", serif;
   --default-font-family: "Montserrat", sans-serif;
 }
@@ -11,7 +12,8 @@ body {
 }
 
 h1{
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
+  color: var(--third-color);
   font-family: var(--heading-font-family);
   font-size: 44px;
   margin:  0px 0px 30px 0px;
@@ -22,7 +24,34 @@ h1{
 h2 {
   font-family: var(--heading-font-family);
   font-size: 64px;
+  color: var(--secondary-color);
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav a {
   color: var(--third-color);
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--btn-color);
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 10px;
 }
 
 p {
@@ -47,12 +76,8 @@ footer a {
   color: var(--primary-color);
 }
 
-a:hover {
-  color: var(--primary-color);
-}
-
 .btn-branding {
-  background: var(--primary-color);
+  background: var(--btn-color);
   border-radius: 4px;
   color: white;
   font-size: 20px;
@@ -63,7 +88,7 @@ a:hover {
 
 .btn-branding-outline {
   border-radius: 4px;
-  background-color: var(--secondary-color);
+  background-color: var(--btn-color);
   color: var(--third-color);
   font-size: 20px;
   padding: 12px 20px;
@@ -100,29 +125,42 @@ a:hover {
   margin: 0;
 }
 
-.icons {
+.hero a:hover {
+  color: var(--primary-color);
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
   text-align: center;
 }
 
-.fa-github {
+footer .icons a {
   background: var(--third-color);
-  border-radius: 30px;
-  font-size: 30px;
-  padding: 10px;
+  border-radius: 50%;
+  font-size: 18px;
+  padding: 10px 14px;
   margin: 0px 30px;
 }
 
-.fa-envelope {
-  background: var(--third-color);
-  border-radius: 30px;
-  font-size: 30px;
-  padding: 10px;
-  margin: 0px 30px;
+footer .icons a:hover {
+  color: var(--btn-color);
+  background-color: var(--third-color);
+}
+
+footer .signature a {
+  color: var(--secondary-color);
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.logo {
+  max-height: 55px;
 }
 
 .projects {
-background-color: var(--primary-color);
-color: var(--third-color);
+background-color: white;
+color: var(--primary-color);
 font-size: 48px;
 text-align: center;
 }
@@ -159,6 +197,10 @@ text-align: center;
     font-size: 40px;
   }
   
+  .logo {
+    max-height: 40px;
+  }
+
   .project-description {
     padding: 0;
     text-align: center;
