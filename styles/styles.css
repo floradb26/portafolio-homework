@@ -92,8 +92,9 @@ footer a {
 .btn-branding-outline {
   border-radius: 4px;
   background-color: var(--btn-color);
-  color: var(--third-color);
+  color: white;
   font-size: 20px;
+  font-weight: bold;
   padding: 12px 20px;
   text-decoration: none;
 }
