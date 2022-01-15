@@ -153,7 +153,7 @@ padding: 40px 70px;
 }
 
 .hero {
-  background-color: #ffffff;
+  background-color: #FAFAFA;
   padding: 80px 20px 50px 20px;
   margin-top: 5em;
   text-align: center;
@@ -183,6 +183,10 @@ padding: 40px 70px;
 
 .hero a:hover {
   color: #ffffff;
+}
+
+.img-fluid {
+    max-width: 80%;
 }
 
 .illustration-block {
@@ -229,7 +233,7 @@ padding: 40px 70px;
 }
 
 .welcome {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 @media (max-width: 900px) {
@@ -275,5 +279,9 @@ padding: 40px 70px;
     font-size: 18px;
     display: block;
     margin: 0, auto;
+  }
+
+  .welcome {
+    margin-top: 4rem;
   }
 }
