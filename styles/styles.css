@@ -312,12 +312,16 @@ padding: 40px 70px;
 
 @media (max-width: 950px) {
   h1 {
-    font-size: 40px;
+    font-size: 32px;
   }
 
   h2 {  
     font-family: var(--heading-font-family);
     font-size: 40px;
+  }
+
+  footer {
+  padding-top: 1rem;
   }
 
   .block-title {
