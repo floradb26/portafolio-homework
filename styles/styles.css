@@ -1,7 +1,8 @@
 :root {
   --primary-color: #000000;
   --secondary-color: #B274AF;
-  --third-color: #e5e4e6;
+  --third-color: #FAFAFA;
+  --fourth-color: #F5A451;
   --btn-color: #ff6583;
   --heading-font-family: "Poppins";
   --default-font-family: "Montserrat", sans-serif;
@@ -58,13 +59,21 @@ nav li {
 }
 
 p {
+  font-family: var(--default-font-family);
   font-weight: normal;
-  font-size: 16px;
+  font-size: 12px;
+  color: var(--third-color);
 }
 
 a {
   font-size: 20px;
   font-weight: bold;
+}
+
+i {
+background-color: #FAFAFA;
+border-radius: 30px;
+padding: 10px;
 }
 
 footer {
@@ -83,22 +92,21 @@ footer {
 }
 
 footer .icons a {
-  background: var(--third-color);
   border-radius: 50%;
   font-size: 18px;
   padding: 10px 14px;
-  margin: 0px 30px;
+  margin: 0px 10px;
 }
 
 footer .icons a:hover {
   color: var(--btn-color);
-  background-color: var(--third-color);
 }
 
 footer .signature a {
-  color: var(--secondary-color);
-  font-size: 16px;
-  text-decoration: none;
+  color: var(--fourth-color);
+  font-family: var(--default-font-family);
+  font-size: 12px;
+  text-decoration: underline;
 }
 
 
@@ -134,16 +142,16 @@ footer .signature a {
 }
 
 .block-title {
-  background-color: white;
+  background-color: #FAFAFA;
   color: var(--primary-color);
   font-size: 48px;
   text-align: center;
 }
 
 .coding-icons {
-  background-color: transparent;
-  color: #F88C55;
-  font-size: 1.5rem;
+  background: transparent;
+  color: #8081E3;
+  font-size: 18px;
 }
 
 .content-container {
@@ -185,7 +193,7 @@ padding: 40px 70px;
 .flip-card-front {
   background-color: #8081E3;
   color: #ffffff;
-  padding-top: 25px;
+  padding-top: 15px;
 }
 
 .flip-card-front h1{
@@ -287,10 +295,22 @@ padding: 40px 70px;
 }
 
 .welcome {
-  margin-top: 2rem;
+  margin-top: 1.125rem;
 }
 
-@media (max-width: 900px) {
+
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .flip-card {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 950px) {
   h1 {
     font-size: 40px;
   }
@@ -327,6 +347,10 @@ padding: 40px 70px;
     font-size: 40px;
   }
   
+  .flip-card {
+    margin-bottom: 20px;
+  }
+
   .logo {
     max-height: 40px;
   }
@@ -346,3 +370,4 @@ padding: 40px 70px;
     margin-top: 4rem;
   }
 }
+
