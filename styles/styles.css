@@ -211,12 +211,13 @@ padding: 40px 70px;
   border-radius: 30px;
   color: #ffffff;
   font-size: 2rem;
+  padding: 40px 0px 0px;
 }
 
 .flip-card-front p{
   background-color: #8081E3;
   color: #ffffff;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .flip-card-back {
