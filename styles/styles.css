@@ -160,12 +160,18 @@ footer .signature a {
 }
 
 .content-container {
-background-color: white;
+background-color: #FAFAFA;
 color: var(--primary-color);
 font-size: 48px;
 text-align: center;
 padding: 40px 70px;
 }
+
+.content-container p{
+  color: var(--primary-color);
+  font-size: 48px;
+  }
+
 
 .flip-card {
   display: block;
@@ -260,8 +266,8 @@ padding: 40px 70px;
   color: #ffffff;
 }
 
-.img-fluid {
-    max-width: 80%;
+.diploma {
+    max-width: 90%;
 }
 
 .illustration-block {
@@ -307,11 +313,15 @@ padding: 40px 70px;
   padding: 120px 60px;
 }
 
+.profile-picture {
+  border: 12px solid #E5E5E5 ;
+  border-radius: 30px;
+  max-width: 58%;
+}
+
 .welcome {
   margin-top: 1.125rem;
 }
-
-
 
 @media (max-width: 400px) {
   h1 {
