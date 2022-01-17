@@ -114,17 +114,6 @@ footer .signature a {
   text-decoration: underline;
 }
 
-
-.btn-branding {
-  background: var(--btn-color);
-  border-radius: 4px;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 12px 20px;
-  text-decoration: none;
-}
-
 .btn-branding-outline {
   border-radius: 16px;
   background-color: var(--btn-color);
@@ -157,6 +146,11 @@ footer .signature a {
   background: transparent;
   color: #8081E3;
   font-size: 18px;
+
+}.coding-icons-2 {
+  background: #8081E3;
+  color: transparent;
+  font-size: 18px;
 }
 
 .content-container {
@@ -172,6 +166,10 @@ padding: 40px 70px;
   font-size: 48px;
   }
 
+  
+.diploma {
+  max-width: 80%;
+}
 
 .flip-card {
   display: block;
@@ -266,8 +264,8 @@ padding: 40px 70px;
   color: #ffffff;
 }
 
-.diploma {
-    max-width: 90%;
+.img-fluid {
+  max-width: 90%;
 }
 
 .illustration-block {
@@ -314,7 +312,6 @@ padding: 40px 70px;
 }
 
 .profile-picture {
-  border: 12px solid #E5E5E5 ;
   border-radius: 30px;
   max-width: 58%;
 }
