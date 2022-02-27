@@ -345,6 +345,17 @@ padding: 40px 70px;
   .flip-card {
     margin-bottom: 20px;
   }
+
+  .info-block {
+    background-color: #FAFAFA;
+    padding: 0px 80px;
+    text-align: center;
+  }
+
+  .img-fluid {
+    max-width: 230px;
+  }
+
 }
 
 @media (max-width: 950px) {
@@ -354,7 +365,7 @@ padding: 40px 70px;
 
   h2 {  
     font-family: var(--heading-font-family);
-    font-size: 40px;
+    font-size: 30px;
   }
 
   footer {
@@ -385,11 +396,27 @@ padding: 40px 70px;
   }
 
   .hero p {
-    font-size: 40px;
+    font-size: 30px;
   }
   
   .flip-card {
     margin-bottom: 20px;
+  }
+
+  .info-block {
+    background-color: #FAFAFA;
+    padding: 0px 80px;
+    text-align: center;
+  }
+
+  .img-fluid {
+    max-width: 230px;
+  }
+
+  .illustration-block img {
+    max-width: 100px;
+    display: block;
+    margin: auto;
   }
 
   .logo {
@@ -401,14 +428,7 @@ padding: 40px 70px;
     text-align: center;
   }
 
-  .illustration-block img {
-    max-width: 100px;
-    display: block;
-    margin: auto;
-  }
-
   .welcome {
     margin-top: 4rem;
   }
 }
-
