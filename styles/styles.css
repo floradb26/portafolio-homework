@@ -337,8 +337,15 @@ padding: 40px 70px;
 }
 
 @media (max-width: 400px) {
+
   h1 {
     font-size: 32px;
+  }
+
+  .hero {
+    padding: 50px 10px;
+    text-align: center;
+    margin-top: 2em;
   }
 
   .flip-card {
