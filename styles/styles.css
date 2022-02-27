@@ -135,6 +135,17 @@ footer .signature a {
   color: #ffffff;
 }
 
+.btn-mailing {
+  border-radius: 16px;
+  border-color: var(--btn-color);
+  background-color: var(--btn-color);
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
 .block-title {
   background-color: #FAFAFA;
   color: var(--primary-color);
@@ -292,7 +303,7 @@ padding: 40px 70px;
   font-size: 48px;
   }
 
-.info-block h1, .info-block a {
+.info-block a {
   color: var(--primary-color);
   background-color: #FAFAFA;
   font-family: var(--default-font-family);
@@ -324,7 +335,6 @@ padding: 40px 70px;
 .welcome {
   margin-top: 1.125rem;
 }
-
 
 @media (max-width: 400px) {
   h1 {
